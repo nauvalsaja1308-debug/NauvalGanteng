@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEB PORTOFOLIO </title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">WEB PORTOFOLIO</div>
+    <ul class="nav-links">
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#services">Layanan</a></li>
+      <li><a href="#work">Sertifikat</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+    <button class="nav-cta">Nauval Ganteng</button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#services">Layanan</a></li>
+      <li><a href="#work">sertifikat</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+    </div>
+    <img src="Images/Achmad Nauval Riadi.jpg" alt="Achmad Nauval Riadi" class="img-Right" height="200" />
+    <div class="hero-content">
+      <div class="hero-tag reveal">Profil</div>
+      <h1 class="hero-title">
+        <span class="line reveal">Achmad</span>
+        <span class="line reveal delay-1 accent-outline">Nauval</span>
+        <span class="line reveal delay-2 ">Riadi</span>
+      </h1>
+      <div class="hero-actions reveal delay-4">
+        <button class="btn-primary" onclick="scrollToSection('work')">Lihat sertifikat saya</button>
+        <button class="btn-ghost" onclick="scrollToSection('contact')">Hubungi nomor →</button>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span>Branding</span><span>·</span>
+      <span>Web Design</span><span>·</span>
+      <span>UI/UX</span><span>·</span>
+      <span>AI ENGINEER</span><span>·</span>
+      <span>Branding</span><span>·</span>
+      <span>Web Design</span><span>·</span>
+      <span>UI/UX</span><span>·</span>
+      <span>Development</span><span>·</span>
+      <span>Branding</span><span>·</span>
+      <span>Web Design</span><span>·</span>
+      <span>UI/UX</span><span>·</span>
+      <span>AI ENGINEER</span><span>·</span>
+      <span>Branding</span><span>·</span>
+      <span>Web Design</span><span>·</span>
+      <span>UI/UX</span><span>·</span>
+      <span>Development</span><span>·</span>
+      <span>Branding</span><span>·</span>
+      <span>Web Design</span><span>·</span>
+      <span>UI/UX</span><span>·</span>
+      <span>AI ENGINEER</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="section-tag reveal">Tentang Saya</div>
+          <div class="about-visual reveal">
+            <div class="visual-box">
+              <div class="visual-inner">
+                <span>Achmad Nauval Riadi</span>
+              </div>
+            </div>
+            <div class="visual-lines">
+              <div class="vline"></div>
+              <div class="vline"></div>
+              <div class="vline"></div>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <p class="about-text reveal">Saya berasal dari kota pekanbaru,saya mahasiswa dari universitas insan cita indonesia dan poltekkes kemenkes riau</p>
+          <p class="about-text reveal delay-1">saya ketua diteknik informatika batch 9 diuniversitas insan cita indonesia dan saya juga sudah mendapatkan gelar  CAIE (certified artificial intelligence engineer)</p>
+          <div class="about-stats reveal delay-2">
+            <div class="stat">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag reveal">Layanan</div>
+        <h2 class="section-title reveal">Apa Saja  yang <em>Saya Bisa lakukan</em></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal" data-index="01">
+          <div class="service-icon">◈</div>
+          <h3>Branding & Identitas</h3>
+          <p>Membangun identitas merek yang kuat, konsisten, dan berkesan di setiap titik sentuh pelanggan.</p>
+          <a href="#" class="service-link">Pelajari lebih →</a>
+        </div>
+        <div class="service-card reveal delay-1" data-index="02">
+          <div class="service-icon">◉</div>
+          <h3>Web Design & Dev</h3>
+          <p>Website yang tidak hanya indah secara visual, tetapi juga performa tinggi dan berorientasi konversi.</p>
+          <a href="#" class="service-link">Pelajari lebih →</a>
+        </div>
+        <div class="service-card reveal delay-2" data-index="03">
+          <div class="service-icon">◐</div>
+          <h3>UI/UX Design</h3>
+          <p>Pengalaman pengguna yang intuitif, penelitian mendalam, dan prototipe yang diuji secara nyata.</p>
+          <a href="#" class="service-link">Pelajari lebih →</a>
+        </div>
+        <div class="service-card reveal delay-3" data-index="04">
+          <div class="service-icon">◇</div>
+          <h3>Digital Strategy</h3>
+          <p>Strategi digital end-to-end yang menghubungkan titik-titik antara tujuan bisnis dan eksekusi kreatif.</p>
+          <a href="#" class="service-link">Pelajari lebih →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section class="work" id="work">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag reveal">Sertifikat</div>
+        <h2 class="section-title reveal">Sertifikat  <em>yang saya peroleh</em></h2>
+      </div>
+      <div class="work-grid">
+        <!-- Sertifikat 1 -->
+        <div class="work-card reveal delay-1">
+          <div class="work-img">
+            <img src="Image/cybersecurity.jpg" alt="Sertifikat Cybersecurity" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+          <div class="work-info" style="--c: var(--accent);">
+            <span class="work-cat">Cybersecurity</span>
+            <h3>Certified Cybersecurity Analyst </h3>
+          </div>
+        </div>
+        <!-- Sertifikat 2 -->
+        <div class="work-card reveal delay-2">
+          <div class="work-img">
+            <img src="Image/sertifikat itb.jpg" alt="Sertifikat ITB" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+          <div class="work-info" style="--c: var(--accent2);">
+            <span class="work-cat">ITB</span>
+            <h3>ITB Certified </h3>
+          </div>
+        </div>
+        <!-- Sertifikat 3 -->
+        <div class="work-card reveal delay-3">
+          <div class="work-img">
+            <img src="Image/software Engineer.jpg" alt="Sertifikat Software Engineer" style="width: 100%; height: 100%; object-fit: cover;" />
+          </div>
+          <div class="work-info" style="--c: #7af0ff;">
+            <span class="work-cat">Software Engineering</span>
+            <h3>Certified Software Engineer </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="testimonial">
+    <div class="container">
+      <div class="testimonial-inner reveal">
+        <div class="quote-mark">"</div>
+        <blockquote>“Kesuksesan bukanlah milik orang yang pintar, tetapi milik mereka yang mau berusaha dan pantang menyerah.”</blockquote>
+        <div class="testimonial-author">
+          <div class="author-avatar">N</div>
+          <div>
+            <strong>Achmad Nauval Riadi.CAIE</strong>
+            <span>Ketua Teknik Informatika, Batch9</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <div class="section-tag reveal">Kontak</div>
+          <h2 class="section-title reveal">Pengen <em>Kenal lebih dalam?</em></h2>
+          <p class="reveal delay-1">Tenang, kamu bisa kirim pesan dikontak yang tersedia.</p>
+          <div class="contact-info reveal delay-2">
+            <div class="contact-item">
+              <span>📧</span>
+              <a href="mailto:nauvalsaja1308@gmail.com">nauvalsaja1308@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span>📞</span>
+              <a href="tel:+6282390466404">+62 823 9046 6404</a>
+            </div>
+            <div class="contact-item">
+              <span>📍</span>
+              <span>Pekanbaru, Indonesia</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right reveal delay-1">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label>Nama Lengkap</label>
+              <input type="text" name="name" placeholder="Nama Anda" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="email@contoh.com" required />
+            </div>
+             <div class="form-group">
+              <label>Pesan</label>
+              <textarea name="message" rows="4" placeholder="Ceritakan pesan Anda..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width">Kirim Pesan →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">Achmad Nauval Riadi.CAIE</div>
+        <div class="footer-social">
+          <a href="#">IG</a>
+          <a href="#">TW</a>
+          <a href="#">LI</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Nauval Ganteng.</span>
+        <span>Dibuat dengan ♥ di Pekanbaru</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
