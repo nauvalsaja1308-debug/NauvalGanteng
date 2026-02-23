@@ -263,6 +263,3 @@ document.querySelectorAll('.work-card').forEach(card => {
     card.style.transition = 'transform 0.4s cubic-bezier(0.23, 1, 0.32, 1)';
   });
 });
-
-console.log('%c NEXUS Digital Agency ', 'background:#e8ff7a;color:#0a0a0a;font-size:16px;font-weight:bold;padding:8px 16px;');
-console.log('%c Built with ♥ in Jakarta ', 'color:#e8ff7a;font-size:12px;');
